@@ -1,0 +1,19 @@
+const clientRouter = require ( '../client/route') ;
+const excursionRouter = require ( '../excursion/route');
+const panierRouter = require( '../panier/route.js' );
+const favorisRouter = require ( '../favoris/route.js')
+const busRouter = require ('../bus/route')
+const reservationRouter = require('../reservation/route')
+const imageRouter = require('../image/routes/index')
+const nonExcursionRouter=require ('../nonexcursion/route')
+const organisateur_amateurRouter = require ('../organisateur_amateur/route')
+module.exports= {
+    clientRouter,
+    excursionRouter, 
+    panierRouter ,
+    favorisRouter,
+    busRouter,
+    reservationRouter,
+    imageRouter,
+    nonExcursionRouter,
+    organisateur_amateurRouter}
